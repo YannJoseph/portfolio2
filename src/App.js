@@ -1,3 +1,4 @@
+import About from "./componenets/About";
 import Experience from "./componenets/Experience";
 import Home from "./componenets/Home";
 import NavBar from "./componenets/NavBar";
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Home/>
+      <About />
       <Experience />
 
       <SocialLinks  />
