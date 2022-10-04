@@ -1,19 +1,7 @@
 import React from 'react'
-// import emailjs from '@emailjs/browser';
 
 function Contact() {
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    
-    //     emailjs.sendForm('Yahoo', '', e.target, 'undmg62h-2s5ibIR7')
-    //       .then((result) => {
-    //           console.log(result.text);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //       e.target.reset()
-    //   };
 
   return (
 
@@ -34,18 +22,21 @@ function Contact() {
     <form  action="https://getform.io/f/0f87d34e-100b-4dfa-9d6d-6d0aea70ba88" method='POST' className='flex flex-col w-full md:w-1/2'>
 
     <input 
+    required
     type="text" 
     name="name" 
     placeholder='Enter your name' 
     className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
 
     <input 
+    required
     type="text" 
     name="email" 
     placeholder='Enter your email' 
     className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
 
     <textarea 
+    required
     name="message" 
     rows="10" 
     placeholder='Enter your message'
