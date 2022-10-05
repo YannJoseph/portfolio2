@@ -9,9 +9,7 @@ import quiz from '../assets/portfolio/quiz.png';
 
 function Portfolio() {
 
-    // const lienBlog = () => {
-    //     window.open("https://github.com/YannJoseph/blog")
-    // };
+  
     const portfolios = [
         {
             id:1,
@@ -19,8 +17,7 @@ function Portfolio() {
             codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/blog">Code</a>,
             netlifySource: <a target="_blank" rel="noreferrer" href="https://blog-yj.netlify.app">Demo</a>
            
-            // codeSource : window.location.href="https://github.com/YannJoseph/blog"  ,
-            // lien :window.open("https://github.com/YannJoseph/blog")
+           
 
 
         },
@@ -43,7 +40,7 @@ function Portfolio() {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             
             <div className='pb-8'>
-                <p className='text-4xl font bold inline border-b-4 border-gray-500'>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                     Portfolio
                 </p>
                 <p className='py-6'>
@@ -63,7 +60,7 @@ function Portfolio() {
                             <div className='flex items-center justify-center'>
 
                            
-                                <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>
+                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
                                     
                                 
                                  {codeSource}   
