@@ -45,7 +45,7 @@ function SocialLinks() {
                 CV <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "CV.pdf",
+            href: "/cv.png",
             style: 'rounded-br-md',
             download: true
             
