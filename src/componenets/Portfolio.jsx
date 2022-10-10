@@ -4,6 +4,7 @@ import React from 'react'
 // import {Link} from 'react-router-dom'
 import blog from '../assets/portfolio/blog.png';
 import quiz from '../assets/portfolio/quiz.png';
+import todoList from '../assets/portfolio/todoList.png';
 
 
 
@@ -26,6 +27,13 @@ function Portfolio() {
             src: quiz,
             codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/quiz">Code</a>,
             netlifySource: <a target="_blank" rel="noreferrer" href="https://quiz-yj.netlify.app">Demo</a>
+            
+        },
+        {
+            id:2,
+            src: todoList,
+            codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/todo-list-1">Code</a>,
+            netlifySource: <a target="_blank" rel="noreferrer" href="https://todo-list-1-murex.vercel.app/">Demo</a>
             
         }
     ]
