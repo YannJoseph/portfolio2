@@ -18,9 +18,6 @@ function Portfolio() {
             codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/blog">Code</a>,
             netlifySource: <a target="_blank" rel="noreferrer" href="https://blog-yj.netlify.app">Demo</a>
            
-           
-
-
         },
         {
             id:2,
@@ -30,12 +27,12 @@ function Portfolio() {
             
         },
         {
-            id:2,
+            id:3,
             src: todoList,
             codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/todo-list-1">Code</a>,
             netlifySource: <a target="_blank" rel="noreferrer" href="https://todo-list-1-murex.vercel.app/">Demo</a>
-            
         }
+       
     ]
 
 
@@ -55,13 +52,14 @@ function Portfolio() {
                     Check out some of my work right here
                 </p>
                 </div>
-                {
-                    portfolios.map(({id,src,codeSource,netlifySource}) => (
-                        <div key={id} className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
-                        <div className='shadow-md shadow-gray-600 rounded-lg' >
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+                {portfolios.map(({id,src,codeSource,netlifySource}) => (
+                        <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+
+                        
                             <img src={src} 
-                            alt="blog" 
+                            alt="" 
                             className='rounded-md duration-200 hover:scale-105'
                             />
     
@@ -82,15 +80,19 @@ function Portfolio() {
                             </div>
     
                         </div>
-    
-                    </div>
+                    
                 
-                    ))
-                }
-         
+                    
+                    
+                    
+                
+                    ))}    
+        
+                    </div>
         </div>
+        
     </div>
-  )
-}
+  );
+};
 
 export default Portfolio
