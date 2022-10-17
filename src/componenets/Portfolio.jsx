@@ -5,6 +5,7 @@ import React from 'react'
 import blog from '../assets/portfolio/blog.png';
 import quiz from '../assets/portfolio/quiz.png';
 import todoList from '../assets/portfolio/todoList.png';
+import weather from "../assets/portfolio/Weather.png";
 
 
 
@@ -31,6 +32,12 @@ function Portfolio() {
             src: todoList,
             codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/todo-list-1">Code</a>,
             netlifySource: <a target="_blank" rel="noreferrer" href="https://todo-list-1-murex.vercel.app/">Demo</a>
+        },
+        {
+            id:4,
+            src: weather,
+            codeSource: <a target="_blank" rel="noreferrer" href="https://github.com/YannJoseph/weather">Code</a>,
+            netlifySource: <a target="_blank" rel="noreferrer" href="https://weather-app-yannjoseph.vercel.app/">Demo</a>
         }
        
     ]
