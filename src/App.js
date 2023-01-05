@@ -9,13 +9,15 @@ import SocialLinks from "./componenets/SocialLinks";
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <NavBar />
       <Home/>
       <About />
       <Portfolio />
       <Experience />
+      
       <Contact />
+
       <SocialLinks  />
     </div>
   );
